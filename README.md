@@ -1,7 +1,9 @@
 # auto-email-trigger
-A basic email triggering tool to trigger multiple emails at one go
+A basic email triggering tool to trigger multiple emails in one go
 
 ### Prerequisites
+
+**Requires `Node v20.10.0` and `npm v10.2.3` or later**
 
 Install dependencies and create local storage
 ```
