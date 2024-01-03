@@ -1,0 +1,26 @@
+{
+  "name": "auto-email-trigger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js $file1 $file2 $file3",
+    "dev": "nodemon src/index.js",
+    "migration": "node src/migration/init.js",
+    "spool": "node src/services/spool.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.6",
+    "dotenv": "^16.3.1",
+    "fast-csv": "^4.3.6",
+    "moment": "^2.30.1",
+    "nodemailer": "^6.9.8",
+    "sqlite3": "^5.1.7-rc.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
